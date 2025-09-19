@@ -1,3 +1,18 @@
+/* index.html styling*/
 #site_heading {
     text-align: center;
+}
+#main {
+    background-color: black;
+}
+.main-text {
+    color:white;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+.press-start-2p-regular {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
