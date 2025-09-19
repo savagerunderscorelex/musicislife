@@ -1,18 +1,15 @@
 /* index.html styling*/
-#site_heading {
+#site_heading, #third-word {
     text-align: center;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
 }
 #main {
     background-color: black;
 }
 .main-text {
     color:white;
-    font-family: "Press Start 2P", system-ui;
-    font-weight: 400;
-    font-style: normal;
-}
-.press-start-2p-regular {
-  font-family: "Press Start 2P", system-ui;
-  font-weight: 400;
-  font-style: normal;
+    
 }
