@@ -1,16 +1,16 @@
 /* index.html styling*/
 #site_heading, #third-word {
-    text-align: center;
-    font-family: "Press Start 2P", system-ui;
+    text-align: center !important;
+    font-family: "Press Start 2P", system-ui !important;
     font-weight: 400;
     font-style: normal;
     color: white;
 }
 #main {
-    background-color: black;
+    background-color: black !important;
 }
 .main-text {
-    color:white;
+    color:white !important;
     
 }
 
