@@ -1,4 +1,4 @@
-const toggler = document.querySelector("#toggler");
+const toggler = document.querySelector(".togglerbtn");
 toggler.addEventListener("click",function() {
     document.querySelector("#sidebar").classList.toggle("collapsed");
 })
