@@ -1,3 +1,22 @@
+const toggler = document.querySelector("#toggler");
+toggler.addEventListener("click",function() {
+    document.querySelector("#sidebar").classList.toggle("collapsed");
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
 let stateLife = "life";
 let stateLove = "love";
 let stateEverything = "everything";
@@ -19,4 +38,4 @@ function typeAboutMusic() {
     
 }
 
-window.onload = typeAboutMusic;
+window.onload = typeAboutMusic; */

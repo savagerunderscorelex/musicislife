@@ -2,3 +2,6 @@
 I wanted to start using bootstrap in my project to expand my frontend development knowledge. So in this project, I'm learning how to use bootstrap.js and maybe other frameworks (if I manage to learn them as well).
 So far, I've added most of the artists/bands that I wanted to showcase in my project. However, the singles page is still in progress and I don't have a definite number of songs that I would add to that page. 
 I added some artist pages while listening through my playlist. 
+
+Currently, I'm trying to add a collapsible side nav bar to the home page.
+I'm having issues with the toggle event, and it's not working so far. I've been trying to adjust my code 

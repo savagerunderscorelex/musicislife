@@ -5,34 +5,37 @@
         <meta charset="UTF-8">
         <link rel="icon" href="idkyet">
         
-        <!-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
         <link rel="stylesheet" href="styles.css">
-        <script src="script.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+        
 
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
         </style>
     </head>
     <body>
+        
         <div class="d-flex">
-            <aside id="siderbar">
+            <aside id="sidebar" class="mother">
                 <div class="sidebar-logo">
                     <a href="#">Muzicizlyfe</a>
                 </div>
                 <ul class="sidebar-nav p-0">
-                    <li class="sidebar-header">All Artists (A-Z)</li>
-                    <li class="sidebar-item">
-                        <a href="#" class="sidebar-link">
-                            <span>Placeholder</span>
-                        </a>
+                    <li class="sidebar-header">
+                        All Artists (A-Z)
                     </li>
                     <li class="sidebar-item">
                         <a href="#" class="sidebar-link">
                             <span>Placeholder</span>
                         </a>
                     </li>
+                    <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">
+                            <span>Placeholder</span>
+                        </a>
+                    </li>
+
                     <li class="sidebar-header">
                         Hi
                     </li>
@@ -40,14 +43,44 @@
                         <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse" data-bs-target="#auth" aria-expanded="true" aria-controls="auth">
                             <span>Placeholder</span>
                         </a>
-                        <ul id="auth" class="sidebar-dropdown">
-
+                        <ul id="auth" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
+                            <li class="sidebar-item">
+                                <a href="#" class="sidebar-link">
+                                    Placeholder
+                                </a>
+                                <a href="#" class="sidebar-link">
+                                    Placeholder
+                                </a>
+                            </li>
                         </ul>
                     </li>
                 </ul>
+                <!--Nav ends-->
+                <div class="sidebar-footer">
+                    <a href="#" class="sidebar-link"></a>
+    
+                </div>
             </aside>
 
+            <div class="main">
+                <nav class="navbar navbar-expand border-bottom">
+                  <button class="togglerbtn" type="button">hi theree</button>  
+                </nav>
+                <main class="p-3">
+                    <div class="container-fluid">
+                        <div class="mb-3 text-center">
+                            <h1>music is life</h1>
+                        </div>
+                    </div>
+
+                </main>
+            </div>
+
         </div>
+    
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    </body>
 <!-- 
             <h1 class="main-text"id="site_heading">music is</h1> <h1 id="third-word">life</h1>
         </header>
