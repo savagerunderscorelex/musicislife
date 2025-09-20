@@ -17,12 +17,16 @@
 * Elegant Doll by datealyfe
 * COBALT by Meaningful Stone
 * MAIS AMOR AINDA (album) by Virgingod and roddie
-
+* Strawberry crush by superst4r
 
 ## Features to Implement
 
-* Figure out how to make a navigation dropdown
+* ~~Figure out how to make a navigation dropdown~~
 * Vinyl player with a couple songs (per artist) that visitors can click on to listen to
 * Photo card of each artist/band with an overview about them
-* A youtube video relating to the artist (either could be an interview, about who they are, or a recent song/album)
-* List of social media and music streaming links
+* A youtube video relating to the artist (either could be an interview, about who they are, a music video, or a recent song/album)
+* List of social media and music streaming links for each artist
+    * Instagram
+    * Genius
+    * Spotify
+    * YouTube

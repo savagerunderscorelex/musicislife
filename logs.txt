@@ -4,4 +4,8 @@ So far, I've added most of the artists/bands that I wanted to showcase in my pro
 I added some artist pages while listening through my playlist. 
 
 Currently, I'm trying to add a collapsible side nav bar to the home page.
-I'm having issues with the toggle event, and it's not working so far. I've been trying to adjust my code 
+I'm having issues with the toggle event, and it's not working so far. I've been trying to adjust my code by fixing the variables and checking if I left any 
+element open, but I couldn't find any issues. I think this is the only thing I don't like about HTML: there aren't really things that tell you any "errors." :(
+
+I've finally managed to fix the collapsible navigation bar code after 1.5+ hours. 
+I finished adding the navigation links for artists a-e. 
