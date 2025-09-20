@@ -6,24 +6,36 @@
     color: white;
 
 }
+/* Sidebar Headers */
 .sidebar-header{
     color: white;
 }
-/* Sidebar Headers */
+
 #all-header {
     font-size: 2em;
     color: white;
 }
-#a-through-e {
+#a-through-e, #l-through-r, #f-through-k, #s-through-y {
     font-size: 20px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-top: 5px;
 }
 .sidebar-link{
     color: white;
+    text-decoration: none;
+    transition: text-shadow 1s ease;
+}
+.sidebar-link:hover {
+    text-shadow: 5px -1px 10px hotpink;
+}
 
+.sidebar-item {
+    margin-left: 20px;
 }
 #sidebar {
-    max-width: 264px;
-    min-width: 264px;
+    max-width: 300px;
+    min-width: 300px;
     transition: all 1s ease-in-out;
     background-color: #161613;
     display: flex;
@@ -31,5 +43,12 @@
 }
 
 #sidebar.collapsed {
-    margin-left: -264px;
+    margin-left: -300px;
+}
+
+.togglerbtn {
+    background-color: transparent;
+    color: white;
+    font-weight: 1000;
+    border: none;
 }

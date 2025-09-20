@@ -9,3 +9,6 @@ element open, but I couldn't find any issues. I think this is the only thing I d
 
 I've finally managed to fix the collapsible navigation bar code after 1.5+ hours. 
 I finished adding the navigation links for artists a-e. 
+
+7:46 PM I finished adding all of the artist navigation links! I'm working on creating a transitioning sidebar caret for the navigation directory for the artists. I also added glow for the names when they're hovered on. 
+I think that I'll make the names buttons to make it more obviously that they're supposed to be clicked on.

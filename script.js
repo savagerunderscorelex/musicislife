@@ -1,8 +1,12 @@
 const toggler = document.querySelector(".togglerbtn");
 toggler.addEventListener("click",function() {
     document.querySelector("#sidebar").classList.toggle("collapsed");
+    
 })
 
+function turn() {
+    document.getElementById("sidebar-button").style.transform = "rotate(180deg)";
+}
 
 
 
