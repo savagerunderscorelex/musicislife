@@ -1,13 +1,29 @@
-const toggler = document.querySelector(".togglerbtn");
+const toggler = document.querySelector("#sidebar-button");
 toggler.addEventListener("click",function() {
     document.querySelector("#sidebar").classList.toggle("collapsed");
-    
 })
 
+(function(document){
+  var div = document.getElementById('contain');
+  var button = document.getElementById('sidebar-button');
+  var open = false;
+
+  div.addEventListener('click', function(){
+    if(open){
+      button.className = 'facing-right';  
+    } else{
+      button.className = 'facing-left open';
+    }
+
+    open = !open;
+  });
+})(document);
+
+/*
 function turn() {
     document.getElementById("sidebar-button").style.transform = "rotate(180deg)";
 }
-
+*/
 
 
 

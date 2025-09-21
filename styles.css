@@ -46,9 +46,20 @@
     margin-left: -300px;
 }
 
-.togglerbtn {
+.facing-right {
     background-color: transparent;
     color: white;
     font-weight: 1000;
     border: none;
+    transition: transform 1s ease;
+    transform: rotate(0deg);
+}
+
+.facing-left {
+    background-color: transparent;
+    color: white;
+    font-weight: 1000;
+    border: none;
+    transition: transform 1s ease;
+    transform: rotate(180deg);  
 }
