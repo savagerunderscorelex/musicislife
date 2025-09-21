@@ -6,6 +6,17 @@
     color: white;
 
 }
+
+#home-heading {
+    text-align: center !important;
+    font-family: "Press Start 2P", system-ui !important;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+
+}
+
+
 /* Sidebar Headers */
 .sidebar-header{
     color: white;
@@ -18,7 +29,7 @@
 #a-through-e, #l-through-r, #f-through-k, #s-through-y {
     font-size: 20px;
     margin-bottom: 10px;
-    margin-left: 5px;
+    margin-left: 20px;
     margin-top: 5px;
 }
 .sidebar-link{
@@ -31,7 +42,7 @@
 }
 
 .sidebar-item {
-    margin-left: 20px;
+    margin-left: 30px;
 }
 #sidebar {
     max-width: 300px;
@@ -48,9 +59,9 @@
 
 #button-bg {
     background-color: #161613;
-    height: 50px;
-    margin-top: -2px;
-    width: 20px;
+    height: 75px;
+    margin-top: 10px;
+    width: 33px;
     position: absolute;
 
 }
@@ -65,8 +76,10 @@
 .facing-left, .facing-right {
     color: white;
     font-weight: 1000;
+    font-size: 25px;
     border: none;
     transition: transform 1s ease;
     background-color: transparent;
     position: relative;
 }
+/* End of Sidebar Styling */
