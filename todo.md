@@ -32,3 +32,6 @@
     * YouTube
 * Choose universal fonts for the website
 * Sketch out layout for a basic artist page
+
+## Bugs / Things to Fix
+* Caret for the sidebar isn't turning right
