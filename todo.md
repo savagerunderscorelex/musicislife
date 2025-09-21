@@ -29,9 +29,13 @@
     * Instagram
     * Genius
     * Spotify
-    * YouTube
+    * YouTube (just these four)
 * Choose universal fonts for the website
 * Sketch out layout for a basic artist page
+* Maybe I should have music playing in the homepage? (i would probably have to warn users about it first, since some people don't recommend having background music)
+* Figure out how to use typed.js
+* design page layout (i'm gonna do this on paper since I don't have any drawing software rn (I really want that ipad!!!))
+* Customize the scroll bar (maybe it changes in each page?)
 
 ## Bugs / Things to Fix
 * ~~Caret for the sidebar isn't turning right~~

@@ -7,6 +7,7 @@ Currently, I'm trying to add a collapsible side nav bar to the home page.
 I'm having issues with the toggle event, and it's not working so far. I've been trying to adjust my code by fixing the variables and checking if I left any 
 element open, but I couldn't find any issues. I think this is the only thing I don't like about HTML: there aren't really things that tell you any "errors." :(
 
+9/20
 I've finally managed to fix the collapsible navigation bar code after 1.5+ hours. 
 I finished adding the navigation links for artists a-e. 
 
@@ -18,3 +19,13 @@ it didn't work at all. I managed to fix it by removing some of the unnecessary c
 the solutions are usually old and don't match up with current versions of coding languages. 
 
 11:25 PM Figured out how to put the caret background below the caret! Used postion absolute and position: relative and had to switch around the order in html
+
+9/21
+9:43 AM I adjusted the sidebar so that it would be collapsed by default. I feel like most websites don't have the sidebar open usually, and I think leaving the sidebar
+uncollapsed would clutter the page when a user first opens it. i had to change its default direction and I feel so smart for figuring out myself hehe
+
+One thing I want to do its make the main part of the page darken when the sidebar is open, mainly because a lot of websites do that. I want to figure out how to do it by myself first
+before I search up a solution. 
+
+4:46 PM Changed the font sizes of the sidebar links to make them smaller and to not make the page as long, I added the footer, and I also added back the paragraph with the description
+of what the site is. 
