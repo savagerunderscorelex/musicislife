@@ -19,7 +19,7 @@
 * MAIS AMOR AINDA (album) by Virgingod and roddie
 * Strawberry crush by superst4r
 
-## Features to Implement
+## Features to Implement + To Do
 
 * ~~Figure out how to make a navigation dropdown~~
 * Vinyl player with a couple songs (per artist) that visitors can click on to listen to
@@ -30,3 +30,5 @@
     * Genius
     * Spotify
     * YouTube
+* Choose universal fonts for the website
+* Sketch out layout for a basic artist page
