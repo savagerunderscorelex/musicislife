@@ -8,9 +8,9 @@ let button = document.getElementById('sidebar-button');
 let open = false;
   div.addEventListener('click', function(){
     if(open){
-      button.className = 'facing-right';  
+      button.className = 'facing-left';  
     } else{
-      button.className = 'facing-left open';
+      button.className = 'facing-right open';
     }
 
     open = !open;
