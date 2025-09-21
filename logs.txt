@@ -12,3 +12,9 @@ I finished adding the navigation links for artists a-e.
 
 7:46 PM I finished adding all of the artist navigation links! I'm working on creating a transitioning sidebar caret for the navigation directory for the artists. I also added glow for the names when they're hovered on. 
 I think that I'll make the names buttons to make it more obviously that they're supposed to be clicked on.
+
+11:15 PM I figured out the caret animation on my own! I looked for a solution for animating the caret for the sidebar on Stack Overflow and I found one. However, when I used the code,
+it didn't work at all. I managed to fix it by removing some of the unnecessary code (the document addition to the function). I think this is an issue that comes up whenever I try to find solutions to some of my problems online: 
+the solutions are usually old and don't match up with current versions of coding languages. 
+
+11:25 PM Figured out how to put the caret background below the caret! Used postion absolute and position: relative and had to switch around the order in html

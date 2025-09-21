@@ -3,11 +3,9 @@ toggler.addEventListener("click",function() {
     document.querySelector("#sidebar").classList.toggle("collapsed");
 })
 
-(function(document){
-  var div = document.getElementById('contain');
-  var button = document.getElementById('sidebar-button');
-  var open = false;
-
+let div = document.getElementById('contain');
+let button = document.getElementById('sidebar-button');
+let open = false;
   div.addEventListener('click', function(){
     if(open){
       button.className = 'facing-right';  
@@ -17,7 +15,6 @@ toggler.addEventListener("click",function() {
 
     open = !open;
   });
-})(document);
 
 /*
 function turn() {
