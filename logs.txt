@@ -29,3 +29,5 @@ before I search up a solution.
 
 4:46 PM Changed the font sizes of the sidebar links to make them smaller and to not make the page as long, I added the footer, and I also added back the paragraph with the description
 of what the site is. 
+
+9:43 PM Tried to add a div with the class container since a W3 Schools article I read said that every element should be nested within one.

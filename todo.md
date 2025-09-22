@@ -36,6 +36,7 @@
 * Figure out how to use typed.js
 * design page layout (i'm gonna do this on paper since I don't have any drawing software rn (I really want that ipad!!!))
 * Customize the scroll bar (maybe it changes in each page?)
+* use boostrap columns to separate artists pages
 
 ## Bugs / Things to Fix
 * ~~Caret for the sidebar isn't turning right~~
