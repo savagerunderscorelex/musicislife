@@ -130,11 +130,12 @@ footer {
     color: white;
 }
 
-#ako-photocard {
+#ako-photocard-background {
     width: 200px;
     height: 300px;
     background-color: blue;
     position: absolute;
+    
 }
 
 #ako-photo {
@@ -143,10 +144,43 @@ footer {
     background-color: purple;
     margin-left: 40px;
     position: relative;
-    margin-top: 60px;
+    top: 3vh;
    
     
 }
 #ako-description {
     position: relative;
+    top: 3vh;
+}
+
+#songs-1-2 {
+    width: 200px;
+    height: 100px;
+    position: relative;
+    margin-top: 35vh;
+}
+#circle-one, #circle-two {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    position: relative;
+    border-radius: 50%;
+}
+
+#circle-two {
+    margin-top: 50%;
+}
+
+#record-player {
+    width: 300px;
+    height: 200px;
+    color: white;
+}
+
+#main-container {
+    display: grid;
+}
+#artist-stuff {
+    grid-column: 1;
+    grid-row: 2;
 }
