@@ -1,6 +1,6 @@
 const toggler = document.querySelector("#sidebar-button");
 toggler.addEventListener("click",function() {
-    document.querySelector("#sidebar").classList.toggle("collapsed");
+    document.querySelector(".sidebars").classList.toggle("collapsed");
 })
 
 let div = document.getElementById('contain');

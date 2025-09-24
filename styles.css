@@ -1,11 +1,12 @@
 /* Home Page Styling */
+#index-main {
+    background-color: black;
+    color: white;
+}
 .main {
     min-height: 100vh;
     width: 100%;
     overflow: hidden;
-    background-color: black;
-    color: white;
-
 }
 
 #home-heading {
@@ -21,6 +22,7 @@
     font-family:'Times New Roman', Times, serif;
 }
 
+
 /* End-----------------*/
 /* Footer Styling */
 
@@ -31,26 +33,7 @@ footer {
     color: white;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* End----------------*/
 /* Sidebar Headers */
 .sidebar-header{
     color: white;
@@ -119,3 +102,51 @@ footer {
     position: relative;
 }
 /* End of Sidebar Styling */
+
+/* Ako Page Styling */
+#sidebar-ako {
+    background-color: red;
+    max-width: 300px;
+    min-width: 300px;
+    transition: all 1s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+#sidebar-ako.collapsed {
+    margin-left: -300px;
+}
+#button-bg-ako {
+    background-color: red;
+    height: 75px;
+    margin-top: 10px;
+    width: 33px;
+    position: absolute;
+
+}
+
+#ako-main {
+    background-color: darkred;
+    color: white;
+}
+
+#ako-photocard {
+    width: 200px;
+    height: 300px;
+    background-color: blue;
+    position: absolute;
+}
+
+#ako-photo {
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    margin-left: 40px;
+    position: relative;
+    margin-top: 60px;
+   
+    
+}
+#ako-description {
+    position: relative;
+}

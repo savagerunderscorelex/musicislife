@@ -31,3 +31,6 @@ before I search up a solution.
 of what the site is. 
 
 9:43 PM Tried to add a div with the class container since a W3 Schools article I read said that every element should be nested within one.
+
+9/24
+5:09 AM I started working on the ako page to figure out how to set up the artist page template. I created the photocard and centered an example photo and paragraph. I struggled a bit with centering the items in photocard (not me forgetting the css I learned from my last project).
