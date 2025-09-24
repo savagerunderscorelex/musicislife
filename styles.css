@@ -131,8 +131,8 @@ footer {
 }
 
 #ako-photocard-background {
-    width: 200px;
-    height: 300px;
+    width: 425px;
+    height: 525px;
     background-color: blue;
     position: absolute;
     
@@ -145,8 +145,13 @@ footer {
     margin-left: 40px;
     position: relative;
     top: 3vh;
-   
-    
+}
+
+#ako-video {
+    position: relative;
+    margin-left: 50%;
+    float: right;
+    margin-top: -100px;
 }
 #ako-description {
     position: relative;
@@ -156,31 +161,53 @@ footer {
 #songs-1-2 {
     width: 200px;
     height: 100px;
-    position: relative;
     margin-top: 35vh;
+    grid-column: 1;
+    grid-row: 2;
+
 }
-#circle-one, #circle-two {
-    width: 100px;
+
+#songs-3-4 {
+    width: 200px;
     height: 100px;
+    margin-top: 35vh;
+    grid-column: 3;
+    grid-row: 2;
+}
+#circle-one, #circle-two, #circle-three, #circle-four {
+    width: 250px;
+    height: 250px;
     background-color: green;
     position: relative;
     border-radius: 50%;
+    display: block;
 }
 
-#circle-two {
-    margin-top: 50%;
-}
-
-#record-player {
-    width: 300px;
-    height: 200px;
-    color: white;
+#circle-two, #circle-four {
+    margin-top: 30%;
 }
 
 #main-container {
     display: grid;
 }
+
+#songs-container {
+    display: grid;
+    width: 100%;
+    height: 500px;
+    margin-left: 5%;
+}
 #artist-stuff {
     grid-column: 1;
     grid-row: 2;
+}
+
+#record-player {
+    height: 500px;
+    width: 600px;
+    background-color: blue;
+    grid-column: 2;
+    grid-row: 3;
+    margin-top: -100px;
+    
 }

@@ -37,3 +37,6 @@ of what the site is.
 
 6:19 AM I figured out how to put the artist information on the main easier (using grid display). The elements I'm adding now are just for figuring out how to code the layouts for my website, so they're currently weird colors and weird shapes because of that. So far, I made a photocard and created the 
 vinyl circles. I'll try to finish it when I come back from school.
+
+5:02 PM I finished the basic layout!! The CSS isn't pretty right now but I added the record player spot, the remaining 2 vinyls, the video, and adjusted the sizes of all the previous elements. 
+The only issue I have right now is that the design when the screen is smaller is off, unfortunately. I'll try to fix it later. 
