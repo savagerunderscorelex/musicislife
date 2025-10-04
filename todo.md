@@ -34,9 +34,11 @@
 * Sketch out layout for a basic artist page
 * Maybe I should have music playing in the homepage? (i would probably have to warn users about it first, since some people don't recommend having background music)
 * Figure out how to use typed.js
-* design page layout (i'm gonna do this on paper since I don't have any drawing software rn (I really want that ipad!!!))
+* ~~design page layout (i'm gonna do this on paper since I don't have any drawing software rn (I really want that ipad!!!))~~
 * Customize the scroll bar (maybe it changes in each page?)
 * use boostrap columns to separate artists pages
+* Redo the sections so that the parts of an artist page are block elements to each other (I notice that when I shrink the page the elements overlap because of the weird css I did)
 
 ## Bugs / Things to Fix
+
 * ~~Caret for the sidebar isn't turning right~~
