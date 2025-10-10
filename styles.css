@@ -125,89 +125,30 @@ footer {
 
 }
 
-#ako-main {
-    background-color: darkred;
-    color: white;
+/* Ako Artist Stuff Styling */
+#artist-stuff {
+    width: auto;
 }
+/* Ako Video Styling */
 
-#ako-photocard-background {
-    width: 425px;
-    height: 525px;
+#ako-video-container {
+    width: 100%;
+    height: fit-content;
+}
+/* Record Player Styling */
+#record-player {
+    height: 50vh;
+    width: 50vh;
     background-color: blue;
-    position: absolute;
-    
-}
-
-#ako-photo {
-    width: 100px;
-    height: 100px;
-    background-color: purple;
-    margin-left: 40px;
-    position: relative;
-    top: 3vh;
-}
-
-#ako-video {
-    position: relative;
-    margin-left: 50%;
-    float: right;
-    margin-top: -100px;
-}
-#ako-description {
-    position: relative;
-    top: 3vh;
-}
-
-#songs-1-2 {
-    width: 200px;
-    height: 100px;
-    margin-top: 35vh;
-    grid-column: 1;
-    grid-row: 2;
-
-}
-
-#songs-3-4 {
-    width: 200px;
-    height: 100px;
-    margin-top: 35vh;
-    grid-column: 3;
-    grid-row: 2;
-}
-#circle-one, #circle-two, #circle-three, #circle-four {
-    width: 250px;
-    height: 250px;
-    background-color: green;
-    position: relative;
-    border-radius: 50%;
-    display: block;
-}
-
-#circle-two, #circle-four {
-    margin-top: 30%;
-}
-
-#main-container {
-    display: grid;
 }
 
 #songs-container {
-    display: grid;
-    width: 100%;
-    height: 500px;
-    margin-left: 5%;
-}
-#artist-stuff {
-    grid-column: 1;
-    grid-row: 2;
+    display: inline-block;
 }
 
-#record-player {
-    height: 500px;
-    width: 600px;
-    background-color: blue;
-    grid-column: 2;
-    grid-row: 3;
-    margin-top: -100px;
-    
+.circle {
+    border-radius: 50%;
+    height: 25vh;
+    width: 25vh;
+    margin-bottom: 10vh
 }

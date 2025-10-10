@@ -1,0 +1,8 @@
+[user]
+	name = savagerunderscorelex
+	email = 148723871+savagerunderscorelex@users.noreply.github.com
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
