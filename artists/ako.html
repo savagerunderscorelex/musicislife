@@ -417,9 +417,9 @@
 
                 </div>
                 </nav>
-                <main class="p-3 container-fluid" id="main-container">
+                <main class="container" id="main-container">
                     
-                    <div class="mb-4 text-center">
+                    <div class="text-center">
                         <h1>ako</h1>
                     </div>
                     <div class="container" id="artist-stuff">
@@ -438,21 +438,18 @@
 
                             </iframe>
                         </div>
-                        <div id="songs-container" class="pagination-center container">
-                            <div class="row">
-                                <div id="songs-1-2" class="col-2">
-                                    <div id="circle-one"><img src="../vinyl-images/vinyl1(red).png" class="circle"></div>
-                                    <div id="circle-two"><img src="../vinyl-images/vinyl2(blue).png" class="circle"></div>
-                                </div>
+                        <span id="now-playing" class="">Now Playing: <div id="current-song">An Example Song</div></span>
+
+                        <div id="songs-container" class="container grid">
+
+                            <div id="songs-1-2" class="g-col-2 justify-content-start">
+                                <div id="circle-one"><img src="../vinyl-images/vinyl1(red).png" class="circle"></div>
+                                <div id="circle-two"><img src="../vinyl-images/vinyl2(blue).png" class="circle"></div>
                             </div>
-                            <div class="row justify-content-center">
-                                <div id="record-player" class="col-5"></div>
-                            </div>
-                            <div class="row justify-content-end">
-                                <div id="songs-3-4" class="col-2">
-                                    <div id="circle-three"><img src="../vinyl-images/vinyl3(purple).png" class="circle"></div>
-                                    <div id="circle-four"><img src="../vinyl-images/vinyl4(green).png" class="circle"></div>
-                                </div>
+                            <div><img src="../recordplayer.png" id="record-player" class="g-col-8"></div>
+                            <div id="songs-3-4" class="g-col-2 justify-content-end">
+                                <div id="circle-three"><img src="../vinyl-images/vinyl3(purple).png" class="circle"></div>
+                                <div id="circle-four"><img src="../vinyl-images/vinyl4(green).png" class="circle"></div>
                             </div>
                             
                         </div>

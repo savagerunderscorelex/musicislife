@@ -129,26 +129,36 @@ footer {
 #artist-stuff {
     width: auto;
 }
+
+
 /* Ako Video Styling */
 
 #ako-video-container {
-    width: 100%;
     height: fit-content;
 }
 /* Record Player Styling */
+#current-song {
+    display: inline;
+}
+#now-playing{
+    font-size: 4em;
+    width: 100%;
+}
 #record-player {
-    height: 50vh;
-    width: 50vh;
-    background-color: blue;
+    height: 60dvh;
+    width: 90dvh;
+    margin-right: 5%;
+    justify-self: center;
 }
 
 #songs-container {
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .circle {
     border-radius: 50%;
-    height: 25vh;
-    width: 25vh;
-    margin-bottom: 10vh
+    height: 35dvh;
+    width: 35dvh;
 }

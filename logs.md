@@ -58,3 +58,7 @@ The only issue I have right now is that the design when the screen is smaller is
 I'm quitting now because i'm falling asleep and I've been coding for the last 6 hours. 
 
 I just need to the vinyls and the record player stay on the same line. 
+
+## 10/10 
+
+8:44 AM I got the record player and the vinyls mostly set. It's not mobile responsive unfortunately. I added a heading for the now playing song when a user clicks on one of the record players. I'm going to try to add the artist card to figure out the ratios and where everything is going to appear on the page. 
