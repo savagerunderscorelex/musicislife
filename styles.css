@@ -129,12 +129,17 @@ footer {
 #artist-stuff {
     width: auto;
 }
+#ako-photocard-background {
+    background-color: darkred;
+    width: 300px;
+    height: 500px;
+}
 
 
 /* Ako Video Styling */
 
 #ako-video-container {
-    height: fit-content;
+    float: right;
 }
 /* Record Player Styling */
 #current-song {
