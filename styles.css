@@ -4,7 +4,7 @@
     color: white;
 }
 .main {
-    min-height: 100vh;
+    min-height: 80;
     width: 100%;
     overflow: hidden;
 }
@@ -111,7 +111,7 @@ footer {
     transition: all 1s ease-in-out;
     display: flex;
     flex-direction: column;
-    height: 100%;
+    height:auto;
 }
 #sidebar-ako.collapsed {
     margin-left: -300px;
@@ -149,13 +149,6 @@ footer {
     font-size: 4em;
     width: 100%;
 }
-#record-player {
-    height: 60dvh;
-    width: 90dvh;
-    margin-right: 5%;
-    justify-self: center;
-}
-
 #songs-container {
     display: flex;
     justify-content: center;

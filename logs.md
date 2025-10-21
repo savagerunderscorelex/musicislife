@@ -61,3 +61,9 @@ I just need to the vinyls and the record player stay on the same line.
 9:15 PM I deleted most of the artist pages because I realized that doing the project at the scope I'm planning to do it rn is NOT going to work. I'm also no longer going to do the record playing feature for the same reason.
 
 I'm just going to do 6 artists: lucy bedroque, bunii, twikipedia, ayowitty, julie, and laila. Random assortment but I think I'll have more fun creating a site based off these artists a bit more.
+
+## 10/21
+
+3:45 PM Removed Record Player
+
+4:09 PM Removed all of the extra artists from the sidebar element of the ako page
