@@ -6,7 +6,7 @@
 .main {
     min-height: 80;
     width: 100%;
-    overflow: hidden;
+    display: block;
 }
 
 #home-heading {
@@ -127,28 +127,34 @@ footer {
 
 /* Ako Artist Stuff Styling */
 #artist-stuff {
-    width: auto;
+    width: 100%;
+    display: inline-flex;
+    margin-top: 10%;
 }
 #ako-photocard-background {
     background-color: darkred;
-    width: 300px;
+    width: 600px;
     height: 500px;
 }
-
+#ako-photo-card{
+    float: left;
+}
 
 /* Ako Video Styling */
 
 #ako-video-container {
-    float: right;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10vh;
+}
+
+#ako-video {
+    width: 100%;
+    height: 75%;
 }
 /* Record Player Styling */
-#current-song {
-    display: inline;
-}
-#now-playing{
-    font-size: 4em;
-    width: 100%;
-}
 #songs-container {
     display: flex;
     justify-content: center;
@@ -159,4 +165,5 @@ footer {
     border-radius: 50%;
     height: 35dvh;
     width: 35dvh;
+    margin: auto 15% auto 15%;
 }

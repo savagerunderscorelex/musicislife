@@ -67,3 +67,10 @@ I'm just going to do 6 artists: lucy bedroque, bunii, twikipedia, ayowitty, juli
 3:45 PM Removed Record Player
 
 4:09 PM Removed all of the extra artists from the sidebar element of the ako page
+
+## 10/22
+
+5:29 AM Finally got the styling of the artist stuff to work!!! Now the photocard and the artist video are side by side.
+
+5:54 PM LETSSSSSSSSSSSSSSSSSSS GOOOOOOOOOOOOOO
+I finally got the video container to stay on the right side, and i also got the video container child elements to be centered too!!!
