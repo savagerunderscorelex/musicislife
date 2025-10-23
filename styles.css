@@ -1,4 +1,10 @@
 /* Home Page Styling */
+
+@keyframes spinRecord {
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
+}
+
 #index-main {
     background-color: black;
     color: white;
@@ -130,6 +136,7 @@ footer {
     width: 100%;
     display: inline-flex;
     margin-top: 10%;
+    margin-bottom: 10%;
 }
 #ako-photocard-background {
     background-color: darkred;
@@ -163,7 +170,15 @@ footer {
 
 .circle {
     border-radius: 50%;
-    height: 35dvh;
-    width: 35dvh;
-    margin: auto 15% auto 15%;
+    height: 40dvh;
+    width: 40dvh;
+    margin: 10% 7vh 10% 7vh;
 }
+
+.animate {
+    animation: spinRecord;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+/* 

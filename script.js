@@ -16,6 +16,20 @@ let open = false;
     open = !open;
   });
 
+let firstClick = true;
+
+let vinyl1 = document.getElementById('circle-one');
+
+vinyl1.addEventListener("click", function(){
+  if(firstClick == true){
+    firstClick != firstClick;
+    vinyl1.animationPlayState = "running";
+  }
+  else{
+    firstClick != firstClick;
+    vinyl1.style.animationPlayState = "paused";
+  }
+});
 /*
 function turn() {
     document.getElementById("sidebar-button").style.transform = "rotate(180deg)";

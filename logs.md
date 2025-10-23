@@ -74,3 +74,8 @@ I'm just going to do 6 artists: lucy bedroque, bunii, twikipedia, ayowitty, juli
 
 5:54 PM LETSSSSSSSSSSSSSSSSSSS GOOOOOOOOOOOOOO
 I finally got the video container to stay on the right side, and i also got the video container child elements to be centered too!!!
+
+## 10/23
+
+7:49 PM I'm trying to work on the animation for the vinyls. I create the animation itself, but I'm trying to figure out the controls for pausing and playing the animation on clicking a vinyl.
+
