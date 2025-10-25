@@ -18,18 +18,23 @@ let open = false;
 
 let firstClick = true;
 
+iam_socool = true;
 let vinyl1 = document.getElementById('circle-one');
 
+hasBeenPaused = false;
 vinyl1.addEventListener("click", function(){
-  if(firstClick == true){
-    firstClick != firstClick;
-    vinyl1.animationPlayState = "running";
+  if(hasBeenPaused == false){
+    vinyl1.classList.add("animate-running");
+    vinyl1.classList.remove("animate-paused")
+    hasBeenPaused = true;
   }
   else{
-    firstClick != firstClick;
-    vinyl1.style.animationPlayState = "paused";
+    vinyl1.classList.add("animate-paused");
+    vinyl1.classList.remove("animate-running")
+    hasBeenPaused = false;
   }
 });
+
 /*
 function turn() {
     document.getElementById("sidebar-button").style.transform = "rotate(180deg)";

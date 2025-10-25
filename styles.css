@@ -8,11 +8,13 @@
 #index-main {
     background-color: black;
     color: white;
+    overflow: hidden;
 }
 .main {
     min-height: 80;
     width: 100%;
     display: block;
+    overflow: hidden;
 }
 
 #home-heading {
@@ -135,7 +137,6 @@ footer {
 #artist-stuff {
     width: 100%;
     display: inline-flex;
-    margin-top: 10%;
     margin-bottom: 10%;
 }
 #ako-photocard-background {
@@ -181,4 +182,12 @@ footer {
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
+
+.animate-running {
+    animation-play-state: running;
+}
+.animate-paused {
+    animation-play-state: paused;
+}
+
 /* 

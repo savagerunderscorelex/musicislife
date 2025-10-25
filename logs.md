@@ -79,3 +79,8 @@ I finally got the video container to stay on the right side, and i also got the 
 
 7:49 PM I'm trying to work on the animation for the vinyls. I create the animation itself, but I'm trying to figure out the controls for pausing and playing the animation on clicking a vinyl.
 
+## 10/25
+
+8:01 AM I was working on the animation yesterday, but I forgot to add a log (I've been super lazy recently).
+
+I figured out how to play and pause the animation on click!! The function works all the time instead of just once, since that was the issue I was dealing with before. I solved this issue by adding and removing classes that control the animation play state.
