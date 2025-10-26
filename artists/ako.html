@@ -105,13 +105,32 @@
                             </iframe>
                         </div>
                      </div>
-                    <div id="songs-container" class="container grid">
-
-                            <div id="circle-one" class="animate animate-paused"><img src="../vinyl-images/vinyl1(red).png" class="circle"></div>
-                            <div id="circle-two"><img src="../vinyl-images/vinyl2(blue).png" class="circle"></div>
-                            <div id="circle-three"><img src="../vinyl-images/vinyl3(purple).png" class="circle"></div>
-                            <div id="circle-four"><img src="../vinyl-images/vinyl4(green).png" class="circle"></div>
-                        
+                    <h2 id="now-playing" class="text-center">Now Playing: <div id="now-playing-song-blank"></div></h2>
+                    <div id="songs-container" class="text-center">
+                            <audio id="first-audio">
+                                <source src="../weenie-bg.wav" type="audio/wav">
+                            </audio>
+                            <div id="circle-one-container">
+                                <div id="circle-one" class="animate animate-paused"><img src="../vinyl-images/vinyl1(red).png" class="circle"></div>
+                                <h3 id="first-song-name">Song 1</h3>
+                            </div>
+                            <div id="circle-two-container">
+                                <div id="circle-two"><img src="../vinyl-images/vinyl2(blue).png" class="circle"></div>
+                                <h3>Song 2</h3>
+                            </div>
+                            <div id="circle-three-container">
+                                <div id="circle-three">
+                                    <img src="../vinyl-images/vinyl3(purple).png" class="circle">
+                                </div>
+                                <h3>Song 3</h3>
+                            </div>
+                            <div id="circle-four-container">
+                                <div id="circle-four">
+                                    <img src="../vinyl-images/vinyl4(green).png" class="circle">
+                                </div>
+                                <h3>Song 4</h3>
+                            </div>
+                            
                     </div>
                    
 

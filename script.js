@@ -16,22 +16,30 @@ let open = false;
     open = !open;
   });
 
-let firstClick = true;
+let nothing = null;
 
-iam_socool = true;
 let vinyl1 = document.getElementById('circle-one');
+let firstAudio = document.getElementById("first-audio");
+
+let songOne = document.getElementById("first-song-name").innerText;
+let nowPlayingSong = document.getElementById("now-playing-song-blank");
 
 hasBeenPaused = false;
+
 vinyl1.addEventListener("click", function(){
   if(hasBeenPaused == false){
     vinyl1.classList.add("animate-running");
-    vinyl1.classList.remove("animate-paused")
+    vinyl1.classList.remove("animate-paused");
+    firstAudio.play();
     hasBeenPaused = true;
+    nowPlayingSong.innerText = songOne;
   }
   else{
     vinyl1.classList.add("animate-paused");
     vinyl1.classList.remove("animate-running")
+    firstAudio.pause();
     hasBeenPaused = false;
+    nowPlayingSong.innerText = nothing;
   }
 });
 

@@ -84,3 +84,7 @@ I finally got the video container to stay on the right side, and i also got the 
 8:01 AM I was working on the animation yesterday, but I forgot to add a log (I've been super lazy recently).
 
 I figured out how to play and pause the animation on click!! The function works all the time instead of just once, since that was the issue I was dealing with before. I solved this issue by adding and removing classes that control the animation play state.
+
+2:28 PM Yay! I got the audio stuff to work now!! Now the first vinyl will play an audio when it is running, and will pause the audio when it is not working. The vinyl now works as a pause/play button for the music!! (I used the Stop Being a Weenie game audio to test this lol)
+
+8:23 PM I also added the feature that will show the song that is currently being played above all the vinyls. I also added the song names (placeholders) under the vinyls.
