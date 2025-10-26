@@ -38,6 +38,11 @@
     opacity: 0.6;
 }
 
+.socials-lists {
+    list-style: none;
+    justify-self: center;
+}
+
 /* End-----------------*/
 /* Footer Styling */
 
@@ -142,14 +147,33 @@ footer {
 #artist-stuff {
     width: 100%;
     display: inline-flex;
-    margin-bottom: 10%;
+    margin-bottom: 7%;
     margin-top: 3%;
     background-color: #161613;
+}
+
+#artist-photo {
+    width: 30vh;
+    height: 30vh;
+    background-color: blue;
+    margin: 0 auto;
+    margin-top: 10%;
+
 }
 #ako-photocard-background {
     background-color: darkred;
     width: 80dvh;
-    height: 90dvh;
+    height: 85dvh;
+    display: inline-block;
+}
+
+.ako-photo-card-headers {
+    margin-top: 5%;
+    justify-self: center;
+}
+
+#artist-description {
+    justify-self: center;
 }
 #ako-photo-card{
     float: left;
@@ -190,9 +214,9 @@ footer {
 
 .circle {
     border-radius: 50%;
-    height: 40dvh;
-    width: 40dvh;
-    margin: 10% 3vh 10% 3vh;
+    height: 35dvh;
+    width: 35dvh;
+    margin: 10% 5vh 10% 5vh;
 }
 
 .animate {

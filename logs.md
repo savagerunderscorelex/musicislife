@@ -88,3 +88,5 @@ I figured out how to play and pause the animation on click!! The function works 
 2:28 PM Yay! I got the audio stuff to work now!! Now the first vinyl will play an audio when it is running, and will pause the audio when it is not working. The vinyl now works as a pause/play button for the music!! (I used the Stop Being a Weenie game audio to test this lol)
 
 8:23 PM I also added the feature that will show the song that is currently being played above all the vinyls. I also added the song names (placeholders) under the vinyls.
+
+10:18 PM Worked on further implementing the template for the artist page (almost done!), added icons + default links to about section, added most basic parts of the artist photo card section
