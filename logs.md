@@ -90,3 +90,7 @@ I figured out how to play and pause the animation on click!! The function works 
 8:23 PM I also added the feature that will show the song that is currently being played above all the vinyls. I also added the song names (placeholders) under the vinyls.
 
 10:18 PM Worked on further implementing the template for the artist page (almost done!), added icons + default links to about section, added most basic parts of the artist photo card section
+
+## 10/26
+
+9:48 AM Worked on readme file
