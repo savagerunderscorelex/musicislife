@@ -34,14 +34,6 @@
     font-family:'Times New Roman', Times, serif;
 }
 
-#blur {
-    width: 100%;
-    z-index: 1;
-    position: absolute;
-    background-color: black;
-    opacity: 0.6;
-}
-
 .socials-lists {
     list-style: none;
     justify-self: center;
@@ -133,6 +125,34 @@ footer {
 }
 /* End of Sidebar Styling */
 
+/* General Artist Page Styling*/
+.photo-cards {
+    float: left;
+}
+.photo-card-backgrounds {
+    width: 80dvh;
+    height: 85dvh;
+    display: inline-block;
+}
+
+.photo-card-headers {
+    margin-top: 5%;
+    justify-self: center;
+}
+
+.artist-photos {
+    width: 30vh;
+    height: 30vh;
+    margin-top: 10%;
+}
+
+#artist-photo-container {
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+
+}
+/* End of General Artist Page Styling */
 /* Ako Page Styling */
 #sidebar-ako {
     background-color: red;
@@ -152,31 +172,16 @@ footer {
     background-color: #161613;
 }
 
-#artist-photo {
-    width: 30vh;
-    height: 30vh;
-    background-color: blue;
-    margin: 0 auto;
-    margin-top: 10%;
-
-}
 #ako-photocard-background {
     background-color: darkred;
-    width: 80dvh;
-    height: 85dvh;
-    display: inline-block;
 }
 
 .ako-photo-card-headers {
-    margin-top: 5%;
-    justify-self: center;
+    color: white;
 }
 
 #artist-description {
     justify-self: center;
-}
-#ako-photo-card{
-    float: left;
 }
 
 /* Ako Video Styling */
@@ -206,7 +211,9 @@ footer {
     background-color: #161613;
 }
 
-
+#ayowitty-photocard-background {
+    background-color: #161613;
+}
 
 
 
