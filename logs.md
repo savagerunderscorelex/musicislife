@@ -94,3 +94,9 @@ I figured out how to play and pause the animation on click!! The function works 
 ## 10/26
 
 9:48 AM Worked on readme file
+
+## 10/27
+
+8:03 PM Basically finished the basic basic stuff of the ako page, copied the styling to the ayowitty page. Now I'm trying to standardize some of the styling by making the general styling a class instead of copying and pasting the styling across each instance of an element (like the sidebars) and then just only changing one attribute.
+
+Also added footer, and added first ayowitty song

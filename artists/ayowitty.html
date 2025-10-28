@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>ako</title>
+        <meta charset="UTF-8">
+        <!--Bootstrap and Project Awesome-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+        <script src="https://kit.fontawesome.com/bfefad7c72.js" crossorigin="anonymous"></script>        
+        <!--Stylesheets-->
+        <link rel="stylesheet" href="../styles.css">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');       
+        </style>
+    
+    </head>
+    <body>
+    <!--Sidebar-->
+        <div class="d-flex">
+            <aside id="sidebar-ayowitty" class="collapsed sidebars">
+                <div class="sidebar-logo">
+                    <p id="all-header" class="text-center">Artists</p>
+                </div>
+                <ul class="sidebar-nav p-0 list-unstyled">
+                    <li class="sidebar-item">
+                        <a href="ako.html" class="sidebar-link">
+                            <span class="sidebar-artist-links">Ako</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="ayowitty.html" class="sidebar-link">
+                            <span class="sidebar-artist-links">ayowitty</span>
+                        </a>
+                    </li>          
+                    <li class="sidebar-item">
+                        <a href="artists/bunii.html" class="sidebar-link">
+                            <span class="sidebar-artist-links">bunii</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="artists/julie.html" class="sidebar-link">
+                            <span class="sidebar-artist-links">julie</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="artists/laila.html" class="sidebar-link">
+                            <span class="sidebar-artist-links">laila!</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="artists/twikipedia.html" class="sidebar-link">
+                            <span class="sidebar-artist-links">twikipedia</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-item">
+                    </li>
+                </ul>
+                
+                <!--Nav ends-->
+                <div class="sidebar-footer">
+                    <li class="sidebar-item" id="back-to-home">
+                        <a href="../index.html" class="sidebar-link">
+                            <span class="sidebar-artist-links">Back to Home Page</span></a>
+                    </li>
+                </div>
+            </aside>
+
+            <div class="main" id="ako-main">
+                <nav class="navbar navbar-expand">
+                <div id="button-bg-ayowitty" class="button-bg"></div>
+                <div id="contain">
+                 <button class="facing-right" id="sidebar-button"  type="button"><</button>  
+                </div>
+                </nav>
+                <main class="container" id="main-container">
+    
+                    <div class="text-center">
+                        <h1>ako</h1>
+                    </div>
+                    <div id="artist-stuff">
+                        <div id="ako-photo-card">
+                            <div id="ako-photocard-background">
+                                <div id="artist-photo"></div>
+                                <h4 id="about-ako-header" class="ako-photo-card-headers photo-card-headers">About</h4>
+                                <p id="artist-description">lorem ipsum idk the latin phrase lol</p>
+
+                                <h4 id="ako-socials-header" class="ako-photo-card-headers photo-card-headers">Socials</h4>
+                                <ul class="socials-lists">
+                                    <li><i class="bi bi-instagram"></i> <a href="https://instagram.com" class="ako-social-links">instagram</a> </li>
+                                    <li><i class="fa-brands fa-soundcloud"></i> <a href="https://soundcloud.com" class="ako-social-links">soundcloud</a> </li>
+                                    <li><i class="bi bi-spotify"></i> <a href="https://spotify.com" class="ako-social-links">spotify</a></li>
+                                    <li><i class="bi bi-youtube"></i> <a href="https://youtube.com" class="ako-social-links">youtube</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div id="ako-video-container" class="text-center">
+                            <h1 id="ako-video-title">Ako - Love Is Always</h1>
+                            <iframe
+                                src="https://www.youtube.com/embed/3NnXMv8sVDE?si=g4o7T0n_pCIPCdKv&amp"
+                                title="bunii"
+                                
+                                id="ako-video">
+
+                            </iframe>
+                        </div>
+                     </div>
+                    <h2 id="now-playing" class="text-center">Now Playing: <div id="now-playing-song-blank"></div></h2>
+                    <div id="songs-container" class="text-center">
+                            <audio id="first-audio">
+                                <source src="../weenie-bg.wav" type="audio/wav">
+                            </audio>
+                            <div id="circle-one-container">
+                                <div id="circle-one" class="animate animate-paused"><img src="../vinyl-images/vinyl1(red).png" class="circle"></div>
+                                <h3 id="first-song-name">Song 1</h3>
+                            </div>
+                            <div id="circle-two-container">
+                                <div id="circle-two"><img src="../vinyl-images/vinyl2(blue).png" class="circle"></div>
+                                <h3 id="second-song-name">Song 2</h3>
+                            </div>
+                            <div id="circle-three-container">
+                                <div id="circle-three">
+                                    <img src="../vinyl-images/vinyl3(purple).png" class="circle">
+                                </div>
+                                <h3 id="third-song-name">Song 3</h3>
+                            </div>
+                            <div id="circle-four-container">
+                                <div id="circle-four">
+                                    <img src="../vinyl-images/vinyl4(green).png" class="circle">
+                                </div>
+                                <h3 id="fourth-song-name">Song 4</h3>
+                            </div>
+                            
+                    </div>
+                   
+
+                </main>
+            </div>
+        </div>
+        <footer class="text-center">
+            <p id="footer-desc">&copy; Savagerunderscorelex(Esther) <a href="https://github.com/savagerunderscorelex">Github</a></p>
+        </footer>
+    <script src="../script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    </body>
+</html>

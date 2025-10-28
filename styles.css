@@ -17,6 +17,10 @@
     overflow: hidden;
 }
 
+#button-bg-home {
+    background-color: #161613;
+
+}
 #home-heading {
     text-align: center !important;
     font-family: "Press Start 2P", system-ui !important;
@@ -82,27 +86,29 @@ footer {
     margin-left: 30px;
     font-size: 15px;
 }
-#sidebar {
+
+.sidebars{
     max-width: 300px;
     min-width: 300px;
     transition: all 1s ease-in-out;
-    background-color: #161613;
     display: flex;
     flex-direction: column;
-    height: 100%;
+    height: auto;
 }
 
-#sidebar.collapsed {
+#sidebar {
+    background-color: #161613;
+}
+
+.sidebars.collapsed {
     margin-left: -300px;
 }
 
-#button-bg {
-    background-color: #161613;
+.button-bg {
     height: 75px;
     margin-top: 10px;
     width: 33px;
     position: absolute;
-
 }
 .facing-right {
     transform: rotate(0deg);
@@ -121,26 +127,20 @@ footer {
     background-color: transparent;
     position: relative;
 }
+
+#back-to-home {
+    list-style: none;
+}
 /* End of Sidebar Styling */
 
 /* Ako Page Styling */
 #sidebar-ako {
     background-color: red;
-    max-width: 300px;
-    min-width: 300px;
-    transition: all 1s ease-in-out;
-    display: flex;
-    flex-direction: column;
-    height:auto;
+
 }
-#sidebar-ako.collapsed {
-    margin-left: -300px;
-}
+
 #button-bg-ako {
     background-color: red;
-    height: 75px;
-    width: 33px;
-    position: absolute;
 }
 
 /* Ako Artist Stuff Styling */
@@ -196,6 +196,33 @@ footer {
     width: 120%;
     height: 70%;
 }
+/* Ayowitty Page Styling */
+
+#sidebar-ayowitty {
+    background-color: #161613;
+}
+
+#button-bg-ayowitty {
+    background-color: #161613;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Record Player Styling */
 
 #now-playing {
@@ -233,4 +260,3 @@ footer {
     animation-play-state: paused;
 }
 
-/* 

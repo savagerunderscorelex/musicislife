@@ -18,7 +18,7 @@
         <div class="d-flex">
             <aside id="sidebar-ako" class="collapsed sidebars">
                 <div class="sidebar-logo">
-                    <p id="all-header" class="text-center">All Artists (A-Y)</p>
+                    <p id="all-header" class="text-center">Artists</p>
                 </div>
                 <ul class="sidebar-nav p-0 list-unstyled">
                     <li class="sidebar-item">
@@ -52,39 +52,23 @@
                         </a>
                     </li>
                     <li class="sidebar-item">
-                        <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse" data-bs-target="#auth" aria-expanded="true" aria-controls="auth">
-                            <span>Placeholder</span>
-                        </a>
-                        <ul id="auth" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
-                            <li class="sidebar-item">
-                                <a href="#" class="sidebar-link">
-                                    Placeholder
-                                </a>
-                                <a href="#" class="sidebar-link">
-                                    Placeholder
-                                </a>
-                            </li>
-                        </ul>
                     </li>
                 </ul>
                 
                 <!--Nav ends-->
                 <div class="sidebar-footer">
-                    <a href="#" class="sidebar-link"></a>
-    
+                    <li class="sidebar-item" id="back-to-home">
+                        <a href="../index.html" class="sidebar-link">
+                            <span class="sidebar-artist-links">Back to Home Page</span></a>
+                    </li>
                 </div>
-                <button class="btn btn-block btn-default">hi</button>
             </aside>
 
             <div class="main" id="ako-main">
                 <nav class="navbar navbar-expand">
-                <div id="button-bg-ako"></div>
+                <div id="button-bg-ako" class="button-bg"></div>
                 <div id="contain">
                  <button class="facing-right" id="sidebar-button"  type="button"><</button>  
-                </div>
-
-                <div id="shadow">
-
                 </div>
                 </nav>
                 <main class="container" id="main-container">
@@ -130,19 +114,19 @@
                             </div>
                             <div id="circle-two-container">
                                 <div id="circle-two"><img src="../vinyl-images/vinyl2(blue).png" class="circle"></div>
-                                <h3>Song 2</h3>
+                                <h3 id="second-song-name">Song 2</h3>
                             </div>
                             <div id="circle-three-container">
                                 <div id="circle-three">
                                     <img src="../vinyl-images/vinyl3(purple).png" class="circle">
                                 </div>
-                                <h3>Song 3</h3>
+                                <h3 id="third-song-name">Song 3</h3>
                             </div>
                             <div id="circle-four-container">
                                 <div id="circle-four">
                                     <img src="../vinyl-images/vinyl4(green).png" class="circle">
                                 </div>
-                                <h3>Song 4</h3>
+                                <h3 id="fourth-song-name">Song 4</h3>
                             </div>
                             
                     </div>
@@ -151,6 +135,9 @@
                 </main>
             </div>
         </div>
+        <footer class="text-center">
+            <p id="footer-desc">&copy; Savagerunderscorelex(Esther) <a href="https://github.com/savagerunderscorelex">Github</a></p>
+        </footer>
     <script src="../script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     </body>

@@ -16,38 +16,45 @@ let open = false;
     open = !open;
   });
 
-let nothing = null;
 
-let vinyl1 = document.getElementById('circle-one');
+// Code for storing the Vinyls within a variable
+let vinylOne = document.getElementById('circle-one');
+let vinylTwo = document.getElementById("circle-two");
+
+// Code for assigning the songs within variables
 let firstAudio = document.getElementById("first-audio");
 
+// Code for assigning Song Headers
 let songOne = document.getElementById("first-song-name").innerText;
+
+// Now Playing Blank (changes when a song is selected)
 let nowPlayingSong = document.getElementById("now-playing-song-blank");
 
-hasBeenPaused = false;
+let hasBeenPausedVinylOne = false;
+let hasBeenPausedVinylTwo = false;
 
-vinyl1.addEventListener("click", function(){
-  if(hasBeenPaused == false){
-    vinyl1.classList.add("animate-running");
-    vinyl1.classList.remove("animate-paused");
+vinylOne.addEventListener("click", function(){
+  if(hasBeenPausedVinylOne == false){
+    vinylOne.classList.add("animate-running");
+    vinylOne.classList.remove("animate-paused");
     firstAudio.play();
-    hasBeenPaused = true;
+    hasBeenPausedVinylOne = true;
     nowPlayingSong.innerText = songOne;
   }
   else{
-    vinyl1.classList.add("animate-paused");
-    vinyl1.classList.remove("animate-running")
+    vinylOne.classList.add("animate-paused");
+    vinylOne.classList.remove("animate-running")
     firstAudio.pause();
-    hasBeenPaused = false;
-    nowPlayingSong.innerText = nothing;
+    hasBeenPausedVinylOne = false;
+    nowPlayingSong.innerText = null;
   }
 });
 
-/*
-function turn() {
-    document.getElementById("sidebar-button").style.transform = "rotate(180deg)";
-}
-*/
+vinylTwo.addEventListener("click", function(){
+  
+});
+
+
 
 
 
