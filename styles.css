@@ -1,14 +1,36 @@
+/* imports lol */
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+
+/* fonts */
+.jersey-10-regular {
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 /* Home Page Styling */
+
+@keyframes spinRecord {
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
+}
+
 #index-main {
     background-color: black;
     color: white;
+    overflow: hidden;
 }
 .main {
-    min-height: 100vh;
+    min-height: 90;
     width: 100%;
+    display: block;
     overflow: hidden;
 }
 
+#button-bg-home {
+    background-color: #161613;
+
+}
 #home-heading {
     text-align: center !important;
     font-family: "Press Start 2P", system-ui !important;
@@ -22,6 +44,10 @@
     font-family:'Times New Roman', Times, serif;
 }
 
+.socials-lists {
+    list-style: none;
+    justify-self: center;
+}
 
 /* End-----------------*/
 /* Footer Styling */
@@ -45,7 +71,7 @@ footer {
 }
 
 #all-header {
-    font-size: 2em;
+    font-size: 5em;
     color: white;
 }
 
@@ -53,36 +79,39 @@ footer {
     color: white;
     text-decoration: none;
     transition: text-shadow 1s ease;
+    font-size: 60px;
 }
 .sidebar-link:hover {
-    text-shadow: 5px -1px 10px hotpink;
+    text-shadow: 5px -1px 10px white;
 }
 
 .sidebar-item {
     margin-left: 30px;
     font-size: 15px;
 }
-#sidebar {
+
+.sidebars{
     max-width: 300px;
     min-width: 300px;
     transition: all 1s ease-in-out;
-    background-color: #161613;
     display: flex;
     flex-direction: column;
-    height: 100%;
+    height: auto;
 }
 
-#sidebar.collapsed {
+#sidebar {
+    background-color: #161613;
+}
+
+.sidebars.collapsed {
     margin-left: -300px;
 }
 
-#button-bg {
-    background-color: #161613;
+.button-bg {
     height: 75px;
     margin-top: 10px;
     width: 33px;
     position: absolute;
-
 }
 .facing-right {
     transform: rotate(0deg);
@@ -101,113 +130,156 @@ footer {
     background-color: transparent;
     position: relative;
 }
+
+#back-to-home {
+    list-style: none;
+}
 /* End of Sidebar Styling */
 
-/* Ako Page Styling */
-#sidebar-ako {
-    background-color: red;
-    max-width: 300px;
-    min-width: 300px;
-    transition: all 1s ease-in-out;
+/* General Artist Page Styling*/
+.photo-cards {
+    float: left;
+}
+.photo-card-backgrounds {
+    width: 80dvh;
+    height: 85dvh;
+    display: inline-block;
+}
+
+.photo-card-headers {
+    margin-top: 5%;
+    justify-self: center;
+}
+
+.artist-photos {
+    width: 30vh;
+    height: 30vh;
+    margin-top: 10%;
+}
+
+#artist-photo-container {
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.video-containers {
+    width: 50%;
     display: flex;
     flex-direction: column;
-    height: 100%;
+    align-items: center;
+    margin-left: 10vh;
+    margin-right: 10vh;
+    margin-top: 6vh;
 }
-#sidebar-ako.collapsed {
-    margin-left: -300px;
+
+.video-titles{
+    margin-top: 3%;
 }
-#button-bg-ako {
-    background-color: red;
-    height: 75px;
-    margin-top: 10px;
-    width: 33px;
-    position: absolute;
+/* End of General Artist Page Styling */
+
+#artist-stuff {
+    width: 100%;
+    display: inline-flex;
+    margin-bottom: 7%;
+    margin-top: 3%;
+    background-color: #161613;
+}
+
+.artist-description {
+    justify-self: center;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+
+/* Ayowitty Page Styling */
+
+#sidebar-ayowitty {
+    background-color: #161613;
+}
+
+#button-bg-ayowitty {
+    background-color: #161613;
+}
+
+#ayowitty-photocard-background {
+    background-color: #161613;
+}
+
+.ayowitty-social-links {
+    text-decoration: none;
 
 }
 
-#ako-main {
-    background-color: darkred;
+#ayowitty-video {
+    width: 120%;
+    height: 70%;
+}
+
+.ayowitty-photo-card-headers, #ayowitty-description, #ayowitty-social-list, #ayowitty-video-title {
     color: white;
 }
 
-#ako-photocard-background {
-    width: 425px;
-    height: 525px;
-    background-color: blue;
-    position: absolute;
-    
-}
-
-#ako-photo {
-    width: 100px;
-    height: 100px;
-    background-color: purple;
-    margin-left: 40px;
-    position: relative;
-    top: 3vh;
-}
-
-#ako-video {
-    position: relative;
-    margin-left: 50%;
-    float: right;
-    margin-top: -100px;
-}
-#ako-description {
-    position: relative;
-    top: 3vh;
-}
-
-#songs-1-2 {
-    width: 200px;
-    height: 100px;
-    margin-top: 35vh;
-    grid-column: 1;
-    grid-row: 2;
-
-}
-
-#songs-3-4 {
-    width: 200px;
-    height: 100px;
-    margin-top: 35vh;
-    grid-column: 3;
-    grid-row: 2;
-}
-#circle-one, #circle-two, #circle-three, #circle-four {
-    width: 250px;
-    height: 250px;
-    background-color: green;
-    position: relative;
-    border-radius: 50%;
-    display: block;
-}
-
-#circle-two, #circle-four {
-    margin-top: 30%;
-}
-
-#main-container {
-    display: grid;
-}
-
-#songs-container {
-    display: grid;
+#ayowitty-background {
     width: 100%;
-    height: 500px;
-    margin-left: 5%;
-}
-#artist-stuff {
-    grid-column: 1;
-    grid-row: 2;
+    height: 100%;
+    background-image: url("./images/she-ayowitty.jpg");
+    background-size: cover;
+    position: absolute;
+    z-index: -1;
+    filter: blur(10px);
 }
 
-#record-player {
-    height: 500px;
-    width: 600px;
-    background-color: blue;
-    grid-column: 2;
-    grid-row: 3;
-    margin-top: -100px;
-    
+.song-names-ayowitty{
+    color: white;
 }
+
+#songs-container-ayowitty{
+    background-color: black;
+}
+
+.ayowitty-photo-card-headers {
+    font-size: xx-large;
+}
+
+/* Record Player Styling */
+
+#now-playing {
+    display: block;
+    color: black;
+}
+
+#now-playing-song-blank {
+    display: inline;
+    color: black
+}
+.songs-containers {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10dvh;
+}
+
+.circle {
+    border-radius: 50%;
+    height: 35dvh;
+    width: 35dvh;
+    margin: 10% 5vh 10% 5vh;
+}
+
+.animate {
+    animation: spinRecord;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.animate-running {
+    animation-play-state: running;
+}
+.animate-paused {
+    animation-play-state: paused;
+}
+
