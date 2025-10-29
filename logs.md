@@ -108,3 +108,9 @@ Also added footer, and added first ayowitty song
 7:49 PM I did a lot within the past 50 or so minutes
 
 I added the second song for the ayowitty page, and continued working on standardizing styles. I also did the code for the second vinyl, added the background, changed some of the coloring for the page, and adjusted some classes/ids.
+
+8:37 PM Updated read me (since I decided to lower the scope again), changed ayowitty page font, yeah that's it lmao.
+
+nvm, deleted ako page + css styling (don't need it anymore), added the rest of the songs
+
+8:49 PM Removed sidebar links, adjusted the sizes of the text of the side bar

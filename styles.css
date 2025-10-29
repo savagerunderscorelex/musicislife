@@ -1,3 +1,13 @@
+/* imports lol */
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+
+/* fonts */
+.jersey-10-regular {
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 /* Home Page Styling */
 
 @keyframes spinRecord {
@@ -61,7 +71,7 @@ footer {
 }
 
 #all-header {
-    font-size: 2em;
+    font-size: 5em;
     color: white;
 }
 
@@ -69,9 +79,10 @@ footer {
     color: white;
     text-decoration: none;
     transition: text-shadow 1s ease;
+    font-size: 60px;
 }
 .sidebar-link:hover {
-    text-shadow: 5px -1px 10px hotpink;
+    text-shadow: 5px -1px 10px white;
 }
 
 .sidebar-item {
@@ -162,17 +173,12 @@ footer {
     margin-right: 10vh;
     margin-top: 6vh;
 }
+
+.video-titles{
+    margin-top: 3%;
+}
 /* End of General Artist Page Styling */
-/* Ako Page Styling */
-#sidebar-ako {
-    background-color: red;
-}
 
-#button-bg-ako {
-    background-color: red;
-}
-
-/* Ako Artist Stuff Styling */
 #artist-stuff {
     width: 100%;
     display: inline-flex;
@@ -181,28 +187,13 @@ footer {
     background-color: #161613;
 }
 
-#ako-photocard-background {
-    background-color: darkred;
-}
-
-.ako-photo-card-headers {
-    color: white;
-}
-
-#artist-description {
+.artist-description {
     justify-self: center;
+    margin-right: 10%;
+    margin-left: 10%;
 }
 
-/* Ako Video Styling */
 
-#ako-video-container {
-    color: white;
-}
-
-#ako-video {
-    width: 120%;
-    height: 70%;
-}
 /* Ayowitty Page Styling */
 
 #sidebar-ayowitty {
@@ -222,21 +213,12 @@ footer {
 
 }
 
-
 #ayowitty-video {
     width: 120%;
     height: 70%;
 }
 
-#ayowitty-video-title {
-    margin-top: -6%;
-}
-
-#ayowitty-social-list {
-    color: white
-}
-
-.ayowitty-photo-card-headers {
+.ayowitty-photo-card-headers, #ayowitty-description, #ayowitty-social-list, #ayowitty-video-title {
     color: white;
 }
 
@@ -258,8 +240,9 @@ footer {
     background-color: black;
 }
 
-
-
+.ayowitty-photo-card-headers {
+    font-size: xx-large;
+}
 
 /* Record Player Styling */
 
