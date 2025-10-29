@@ -23,10 +23,10 @@ let vinylTwo = document.getElementById("circle-two");
 
 // Code for assigning the songs within variables
 let firstAudio = document.getElementById("first-audio");
-
+let secondAudio = document.getElementById("second-audio");
 // Code for assigning Song Headers
 let songOne = document.getElementById("first-song-name").innerText;
-
+let songTwo = document.getElementById("second-song-name").innerText;
 // Now Playing Blank (changes when a song is selected)
 let nowPlayingSong = document.getElementById("now-playing-song-blank");
 
@@ -51,7 +51,20 @@ vinylOne.addEventListener("click", function(){
 });
 
 vinylTwo.addEventListener("click", function(){
-  
+  if(hasBeenPausedVinylTwo == false){
+    vinylTwo.classList.add("animate-running");
+    vinylTwo.classList.remove("animate-paused");
+    secondAudio.play();
+    hasBeenPausedVinylTwo = true;
+    nowPlayingSong.innerHTML = songTwo;
+  }
+  else{
+    vinylTwo.classList.add("animate-paused");
+    vinylTwo.classList.remove("animate-running");
+    secondAudio.pause();
+    hasBeenPausedVinylTwo = false;
+    nowPlayingSong.innerText = null;
+  }
 });
 
 

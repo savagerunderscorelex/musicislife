@@ -102,3 +102,9 @@ I figured out how to play and pause the animation on click!! The function works 
 Also added footer, and added first ayowitty song
 
 9:38 PM Continued working on standardizing certain styles, added ayowitty artist photo, connected the 1st song to the 1st vinyl of the ayowitty page
+
+## 10/28
+
+7:49 PM I did a lot within the past 50 or so minutes
+
+I added the second song for the ayowitty page, and continued working on standardizing styles. I also did the code for the second vinyl, added the background, changed some of the coloring for the page, and adjusted some classes/ids.
