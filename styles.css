@@ -18,19 +18,37 @@
 #index-main {
     background-color: black;
     color: white;
+    min-height: 100vh;
+    width: 500%;
+    display: block;
     overflow: hidden;
+    transition: filter ease 1s;
 }
+
+#homepage-body {
+    background-color: black;
+}
+#button-bg-home {
+    height: 75px;
+    margin-top: 550px;
+    width: 33px;
+    background-color: #161613;
+    position: absolute;
+
+}
+
 .main {
     min-height: 90;
     width: 100%;
     display: block;
     overflow: hidden;
+    transition: filter ease 1s;
 }
 
-#button-bg-home {
-    background-color: #161613;
-
+.main.blurred {
+    filter: blur(10px);
 }
+
 #home-heading {
     text-align: center !important;
     font-family: "Press Start 2P", system-ui !important;
@@ -99,6 +117,9 @@ footer {
     height: auto;
 }
 
+.navbar{
+    margin-top: -82%;
+}
 #sidebar {
     background-color: #161613;
 }
@@ -107,11 +128,12 @@ footer {
     margin-left: -300px;
 }
 
-.button-bg {
+.button-bg-artists {
     height: 75px;
     margin-top: 10px;
     width: 33px;
     position: absolute;
+
 }
 .facing-right {
     transform: rotate(0deg);
@@ -192,7 +214,6 @@ footer {
     margin-right: 10%;
     margin-left: 10%;
 }
-
 
 /* Ayowitty Page Styling */
 

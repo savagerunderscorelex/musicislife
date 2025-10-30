@@ -114,3 +114,15 @@ I added the second song for the ayowitty page, and continued working on standard
 nvm, deleted ako page + css styling (don't need it anymore), added the rest of the songs
 
 8:49 PM Removed sidebar links, adjusted the sizes of the text of the side bar
+
+## 10/30
+
+4:30 PM Frontend pisses me off sometimes.
+
+I've been trying to adjust a problem with the frontend for at least an hour. When I started coding earlier, I noticed that the first artist page and the home page centering was off. I tried soooo many ways to fix this issue, including changing the positions of certain elements, trying to center the artist-stuff element, and trying to adjust the sidebar styling as well.
+
+So what caused this problem? I guess I started coding a CSS styling rule and never finished doing so. It was hard to detect because the warning stuff never detected it since it was just the id (no brackets). So yeah. It's all good now :)
+
+7:22 PM I've also been trying to fix an issue with the full background not being covered in the home page, but I just realized that I could make the whole body black. So.
+
+*I've been spending too much time on this project*

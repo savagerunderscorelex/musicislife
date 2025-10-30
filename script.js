@@ -1,4 +1,5 @@
 const toggler = document.querySelector("#sidebar-button");
+let main = document.querySelector(".main");
 toggler.addEventListener("click",function() {
     document.querySelector(".sidebars").classList.toggle("collapsed");
 })
@@ -8,9 +9,11 @@ let button = document.getElementById('sidebar-button');
 let open = false;
   div.addEventListener('click', function(){
     if(open){
-      button.className = 'facing-right';  
+      button.className = 'facing-right';
+      //main.classList.remove("blurred");
     } else{
       button.className = 'facing-left open';
+      //main.classList.add("blurred");
     }
 
     open = !open;
