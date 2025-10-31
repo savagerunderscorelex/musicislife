@@ -130,3 +130,7 @@ So what caused this problem? I guess I started coding a CSS styling rule and nev
 9:45 PM Holy I'm done!!!!!!!!!!!!1
 
 I spen wayy too much time on this project but here I am. I added the rest of the songs and finished the twikipedia + bunii pages. I'm proud that I finished this project (however I need to do WAYYYY better on design next time.) I'm going to deploy this project now.
+
+## 10/31
+
+7:04 AM Deployed project, edited README.md file.
