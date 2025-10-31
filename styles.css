@@ -18,8 +18,7 @@
 #index-main {
     background-color: black;
     color: white;
-    min-height: 100vh;
-    width: 500%;
+    min-height: 90vh;
     display: block;
     overflow: hidden;
     transition: filter ease 1s;
@@ -30,7 +29,7 @@
 }
 #button-bg-home {
     height: 75px;
-    margin-top: 550px;
+    margin-bottom: -660px;
     width: 33px;
     background-color: #161613;
     position: absolute;
@@ -58,10 +57,13 @@
 
 }
 
-#site_intro {
+.main-text {
     font-family:'Times New Roman', Times, serif;
 }
 
+#site_intro {
+    margin-top: 5%;
+}
 .socials-lists {
     list-style: none;
     justify-self: center;
@@ -199,6 +201,15 @@ footer {
 .video-titles{
     margin-top: 3%;
 }
+
+.background-images {
+    background-size: cover;
+    position: absolute;
+    z-index: -1;
+    filter: blur(10px);
+    width: 100%;
+    height: 100%;
+}
 /* End of General Artist Page Styling */
 
 #artist-stuff {
@@ -244,13 +255,7 @@ footer {
 }
 
 #ayowitty-background {
-    width: 100%;
-    height: 100%;
     background-image: url("./images/she-ayowitty.jpg");
-    background-size: cover;
-    position: absolute;
-    z-index: -1;
-    filter: blur(10px);
 }
 
 .song-names-ayowitty{
@@ -264,6 +269,67 @@ footer {
 .ayowitty-photo-card-headers {
     font-size: xx-large;
 }
+
+/* bunii page styling */
+
+#bunii-background {
+    background-image: url("./images/bastard.jpg");
+}
+
+#bunii-page-header {
+    color: white;
+}
+
+#artist-stuff-bunii {
+    width: 100%;
+    display: inline-flex;
+    margin-bottom: 7%;
+    margin-top: 3%;
+    background-color: gray;
+}
+
+#songs-container-bunii {
+    background-color: gray;
+}
+
+#bunii-video {
+    width: 100%;
+    height: 70%;
+}
+
+#sidebar-bunii, #button-bg-bunii {
+    background-color: #161613;
+}
+
+/* twikipedia styling */
+
+#twikipedia-background {
+    background-image: url("data:image/jpeg;base64,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");
+    background-size: stretch;
+    background-repeat: no-repeat;
+}
+
+#sidebar-twikipedia, #button-bg-twikipedia, #artist-stuff-twikipedia, #songs-container-twikipedia {
+    background-color: #315894;
+}
+
+#artist-stuff-twikipedia {
+    width: 100%;
+    display: inline-flex;
+    margin-bottom: 7%;
+    margin-top: 3%;
+    padding-bottom: 5%;
+}
+
+#twikipedia-main {
+    color: white;
+}
+
+#twikipedia-video {
+    width: 100%;
+    height: 70%;
+}
+
 
 /* Record Player Styling */
 

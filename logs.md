@@ -126,3 +126,7 @@ So what caused this problem? I guess I started coding a CSS styling rule and nev
 7:22 PM I've also been trying to fix an issue with the full background not being covered in the home page, but I just realized that I could make the whole body black. So.
 
 *I've been spending too much time on this project*
+
+9:45 PM Holy I'm done!!!!!!!!!!!!1
+
+I spen wayy too much time on this project but here I am. I added the rest of the songs and finished the twikipedia + bunii pages. I'm proud that I finished this project (however I need to do WAYYYY better on design next time.) I'm going to deploy this project now.

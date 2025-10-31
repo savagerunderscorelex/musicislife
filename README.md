@@ -17,3 +17,7 @@ I started with about 40-60 artists, and narrowed them down to 3 artists. I chose
 ## Resources
 
 For future reference, I like to list some articles/forum posts that helped me complete the project.
+
+### Tutorials
+
+* Sidebar: [How to Make a Sidebar in Boostrap 5](https://youtu.be/LjsCyH_5ERs?si=ADGBxUEj7k2FGBBl)

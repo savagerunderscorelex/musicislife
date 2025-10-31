@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>bunii</title>
+        <meta charset="UTF-8">
+        <!--Bootstrap and Project Awesome-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+        <script src="https://kit.fontawesome.com/bfefad7c72.js" crossorigin="anonymous"></script>        
+        <!--Stylesheets-->
+        <link rel="stylesheet" href="../styles.css">
+    </head>
+    <div id="bunii-background" class="background-images">
+
+    </div>
+    <body id="bunii-body" class="jersey-10-regular">
+    <!--Sidebar-->
+        <div class="d-flex">
+            <aside id="sidebar-bunii" class="collapsed sidebars">
+                <div class="sidebar-logo">
+                    <p id="all-header" class="text-center">Artists</p>
+                </div>
+                <ul class="sidebar-nav p-0 list-unstyled">
+                    <li class="sidebar-item">
+                        <a href="ayowitty.html" class="sidebar-link">
+                            <span class="sidebar-artist-links">ayowitty</span>
+                        </a>
+                    </li>          
+                    <li class="sidebar-item">
+                        <a href="bunii.html" class="sidebar-link">
+                            <span class="sidebar-artist-links">bunii</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="twikipedia.html" class="sidebar-link">
+                            <span class="sidebar-artist-links">twikipedia</span>
+                        </a>
+                    </li>
+                    
+                </ul>
+                <hr>
+                <!--Nav ends-->
+                <div class="sidebar-footer">
+                    <li class="sidebar-item" id="back-to-home">
+                        <a href="../index.html" class="sidebar-link">
+                            <span class="sidebar-artist-links">Back to Home Page</span></a>
+                    </li>
+                </div>
+            </aside>
+            <nav class="navbar navbar-expand">
+                <div id="button-bg-bunii" class="button-bg-artists"></div>
+                <div id="contain">
+                 <button class="facing-right" id="sidebar-button"  type="button"><</button>  
+                </div>
+            </nav>
+            <div class="main" id="bunii-main">
+                
+                <main class="container" id="bunii-container">
+    
+                    <div class="text-center">
+                        <h1 id="bunii-page-header">bunii</h1>
+                    </div>
+                    <div id="artist-stuff-bunii">
+                        <div class="photo-cards">
+                            <div id="bunii-photocard-background" class="photo-card-backgrounds">
+                                <div id="artist-photo-container"><img class="artist-photos" src="data:image/jpeg;base64,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"></div>
+                                <h4 id="about-bunii-header" class="bunii-photo-card-headers photo-card-headers">About</h4>
+                                <p id="bunii-description" class="artist-description text-center">Bunii is a indie/alternative artist from LA. He goes under other aliases such as 6yari and shy the eternal.</p>
+
+                                <h4 id="bunii-socials-header" class="bunii-photo-card-headers photo-card-headers">Socials</h4>
+                                <ul class="socials-lists" id="bunii-social-list">
+                                    <li><i class="bi bi-instagram"></i> <a href="https://www.instagram.com/lovebunii/" class="bunii-social-links" target="_blank">instagram</a> </li>
+                                    <li><i class="fa-brands fa-soundcloud"></i> <a href="https://soundcloud.com/lovebunii" class="bunii-social-links" target="_blank">soundcloud</a> </li>
+                                    <li><i class="bi bi-spotify"></i> <a href="https://open.spotify.com/artist/6mx3Y8XNLPaS2pjJbQFq3W" class="bunii-social-links" target="_blank">spotify</a></li>
+                                    <li><i class="bi bi-youtube"></i> <a href="https://www.youtube.com/@ilove6yari/featured" class="bunii-social-links" target="_blank">youtube</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                
+                        <div id="bunii-video-container" class="text-center video-containers">
+                            <h1 id="bunii-video-title" class="video-titles">bunii - need it (music video)</h1>
+                            <iframe
+                                src="https://www.youtube.com/embed/-YEOEOwMgAY?si=eUtEEA5Oy9r-O69L"
+                                title="bunii"
+                                
+                                id="bunii-video">
+
+                            </iframe>
+                        </div>
+                     </div>
+                    <h2 id="now-playing" class="text-center now-playing-headers">Now Playing: <div id="now-playing-song-blank"></div></h2>
+                    <div id="songs-container-bunii" class="text-center songs-containers">
+                            <audio id="first-audio">
+                                <source src="../artist-music-files/antonym.mp3" type="audio/mp3">
+                            </audio>
+                            <audio id="second-audio">
+                                <source src="../artist-music-files/et.mp3" type="audio/mp3">
+                            </audio>
+                            <audio id="third-audio">
+                                <source src="../artist-music-files/letsfaceit.mp3" type="audio/mp3">
+                            </audio>
+                            <audio id="fourth-audio">
+                                <source src="../artist-music-files/regret.mp3" type="audio/mp3">
+                            </audio>
+                            <div id="circle-one-container">
+                                <div id="circle-one" class="animate animate-paused"><img src="../vinyl-images/vinyl1(red).png" class="circle"></div>
+                                <h3 id="first-song-name" class="song-names song-names-bunii">antonym</h3>
+                            </div>
+                            <div id="circle-two-container">
+                                <div id="circle-two" class="animate animate-paused"><img src="../vinyl-images/vinyl2(blue).png" class="circle"></div>
+                                <h3 id="second-song-name" class="song-names song-names-bunii">et</h3>
+                            </div>
+                            <div id="circle-three-container">
+                                <div id="circle-three" class="animate animate-paused">
+                                    <img src="../vinyl-images/vinyl3(purple).png" class="circle">
+                                </div>
+                                <h3 id="third-song-name" class="song-names song-names-bunii">let's face it</h3>
+                            </div>
+                            <div id="circle-four-container">
+                                <div id="circle-four" class="animate animate-paused">
+                                    <img src="../vinyl-images/vinyl4(green).png" class="circle">
+                                </div>
+                                <h3 id="fourth-song-name" class="song-names song-names-bunii">REGRET</h3>
+                            </div>
+                            
+                    </div>
+                   
+
+                </main>
+            </div>
+        </div>
+        <footer class="text-center">
+            <p id="footer-desc">&copy; Savagerunderscorelex(Esther) <a href="https://github.com/savagerunderscorelex">Github</a></p>
+        </footer>
+    <script src="../script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    </body>
+</html>

@@ -10,10 +10,10 @@ let open = false;
   div.addEventListener('click', function(){
     if(open){
       button.className = 'facing-right';
-      //main.classList.remove("blurred");
+      main.classList.remove("blurred");
     } else{
       button.className = 'facing-left open';
-      //main.classList.add("blurred");
+      main.classList.add("blurred");
     }
 
     open = !open;
